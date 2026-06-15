@@ -50,11 +50,17 @@ Grab the latest build from the [**Releases**](../../releases/latest) page:
 
 ### First launch
 
-Early builds are **not yet code-signed**, so the OS shows a one-time warning:
+Early builds are **not yet code-signed**, so the OS shows a one-time warning.
 
-- **macOS** — right-click the app → **Open**, or run
-  `xattr -dr com.apple.quarantine /Applications/Smark.app`
-- **Windows** — on the SmartScreen prompt, click **More info → Run anyway**
+**macOS** — if you see *"Smark is damaged and can't be opened"*, the file is fine;
+macOS just blocks unsigned downloads. Drag Smark into **Applications**, then run
+this once in **Terminal**:
+
+```sh
+xattr -dr com.apple.quarantine /Applications/Smark.app
+```
+
+**Windows** — on the SmartScreen prompt, click **More info → Run anyway**.
 
 ## About
 

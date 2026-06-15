@@ -50,11 +50,15 @@ Grab the latest build from the [**Releases**](../../releases/latest) page:
 
 ### First launch
 
-Early builds are **not yet code-signed**, so the OS shows a one-time warning.
+Smark is signed but not (yet) Apple-notarized, so the OS asks once.
 
-**macOS** — if you see *"Smark is damaged and can't be opened"*, the file is fine;
-macOS just blocks unsigned downloads. Drag Smark into **Applications**, then run
-this once in **Terminal**:
+**macOS** (no Terminal needed):
+
+1. Drag **Smark** into **Applications**.
+2. Double-click it → click **Done** on the warning.
+3. **System Settings → Privacy & Security**, scroll down, click **Open Anyway**, enter your password.
+
+Or, one line in **Terminal**:
 
 ```sh
 xattr -dr com.apple.quarantine /Applications/Smark.app

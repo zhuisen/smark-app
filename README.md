@@ -18,7 +18,7 @@ Sublime-fast typing · live rendering · zero clutter · no account required.
 
 Most Markdown apps make you choose: a *fast plain-text editor* with no rendering, or a *pretty rendered app* that feels heavy and locks your notes behind an account. **Smark refuses the trade-off.**
 
-- ⚡ **Fast like a code editor.** A tiny native (Rust/Tauri) shell around CodeMirror 6 — it opens instantly and stays smooth in long documents. No Electron bloat; a ~6 MB installer, not 150 MB.
+- ⚡ **Fast like a code editor.** A tiny native app — it opens instantly and stays smooth in long documents. A ~6 MB installer, not 150 MB.
 - 👁️ **Live rendering, in place.** Headings, **bold**, lists, tables, code blocks, math and diagrams render *as you type* — the line you're editing shows its raw Markdown, everything else stays beautiful. No split preview pane to babysit.
 - 🎨 **Designed, not generated.** A warm amber-on-charcoal aesthetic (and a clean light theme) with real typography: Space Grotesk headings, a comfortable reading measure, JetBrains Mono for code.
 - 🔒 **Yours, locally.** No login, no accounts, no telemetry. Your files are plain `.md` on disk — open them in anything, anytime. Saves are crash-safe (atomic writes).
@@ -58,13 +58,12 @@ Early builds are **not yet code-signed**, so the OS shows a one-time warning:
 
 ## About
 
-Smark is built with [Tauri 2](https://tauri.app), [CodeMirror 6](https://codemirror.net) and React.
-This repository hosts the **public builds** and download page; bundled third-party
-components are used under their respective licenses (fonts Space Grotesk and
-JetBrains Mono are SIL OFL-1.1).
+This repository hosts the **public builds** and download page for Smark.
+Bundled fonts (Space Grotesk and JetBrains Mono) are used under the SIL Open
+Font License 1.1.
 
 ---
 
 <div align="center">
-<sub>Built with Tauri · CodeMirror · React</sub>
+<sub>© 2026 Smark</sub>
 </div>
